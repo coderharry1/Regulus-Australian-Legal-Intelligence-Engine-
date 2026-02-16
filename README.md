@@ -1,6 +1,7 @@
-# 📜 LexiAUS – LoRA-Powered Australian Legal Assistant
-![](https://github.com/prakhar105/austlii-legal-assistant/blob/master/assests/logo.png)
-LexiAUS is an AI-powered **legal assistant** fine-tuned on **AustLII (Australian Legal Information Institute)** legal documents.  
+# 📜 Regulus – LoRA-Powered Australian Legal Assistant
+<img width="670" height="533" alt="Screenshot 2026-02-17 at 9 29 37 AM" src="https://github.com/user-attachments/assets/6a1a71a7-4c7d-4464-ba98-227549bab5f3" />
+
+Regulus is an AI-powered **legal assistant** fine-tuned on **AustLII (Australian Legal Information Institute)** legal documents.  
 It can:
 
 - **Summarize legal clauses** in plain English  
@@ -23,9 +24,10 @@ This project uses **LoRA (Low-Rank Adaptation)** with **OpenLLaMA 3B** and **4�
 
 ## 📸 App Screenshot
 
-Here’s how **LexiAUS** looks in action:
+Here’s how **Regulus** looks in action:
 
-![LexiAUS Screenshot](https://github.com/prakhar105/austlii-legal-assistant/blob/master/assests/Screenshot%202025-08-05%20094540.png)
+<img width="1201" height="202" alt="Screenshot 2026-02-17 at 9 35 12 AM" src="https://github.com/user-attachments/assets/10ab0ece-ba35-49f2-979b-2630b139dc03" />
+
 
 *(Make sure your screenshot is saved as `assets/app_screenshot.png` in the repo.)*
 
@@ -34,7 +36,7 @@ Here’s how **LexiAUS** looks in action:
 ## 📂 Project Structure
 
 ```
-lexi-aus-lora/
+regulus-lora/
 app
 └── app.py                      # Gradio web app for LoRA 
 │
@@ -161,6 +163,6 @@ Always consult a qualified lawyer for official legal interpretation.
 
 ## ✅ Project Summary
 
-- **Project Name:** `lexi-aus-lora`  
+- **Project Name:** `regulus-lora`  
 - **App Name:** **LexiAUS – Australian Legal Assistant**  
 - **Description:** LoRA‑fine‑tuned OpenLLaMA 3B for summarizing and explaining Australian legal clauses  
