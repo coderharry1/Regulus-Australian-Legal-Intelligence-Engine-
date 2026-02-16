@@ -1,8 +1,6 @@
-# Regulus-Australian-Legal-Intelligence-Engine-
-<img width="670" height="533" alt="Screenshot 2026-02-17 at 9 29 37 AM" src="https://github.com/user-attachments/assets/335a5550-18dc-47ee-8ce4-dcc6e3248db8" />
-
-Regulus is an AI-powered **legal assistant** fine-tuned on **AustLII (Australian Legal Information Institute)** legal documents.  
-
+# 📜 LexiAUS – LoRA-Powered Australian Legal Assistant
+![](https://github.com/prakhar105/austlii-legal-assistant/blob/master/assests/logo.png)
+LexiAUS is an AI-powered **legal assistant** fine-tuned on **AustLII (Australian Legal Information Institute)** legal documents.  
 It can:
 
 - **Summarize legal clauses** in plain English  
@@ -25,10 +23,9 @@ This project uses **LoRA (Low-Rank Adaptation)** with **OpenLLaMA 3B** and **4�
 
 ## 📸 App Screenshot
 
-Here’s how **Regulus** looks in action:
+Here’s how **LexiAUS** looks in action:
 
-<img width="1201" height="202" alt="Screenshot 2026-02-17 at 9 35 12 AM" src="https://github.com/user-attachments/assets/3c4b0df3-98ad-4603-be40-074fc00a4e83" />
-
+![LexiAUS Screenshot](https://github.com/prakhar105/austlii-legal-assistant/blob/master/assests/Screenshot%202025-08-05%20094540.png)
 
 *(Make sure your screenshot is saved as `assets/app_screenshot.png` in the repo.)*
 
@@ -37,30 +34,30 @@ Here’s how **Regulus** looks in action:
 ## 📂 Project Structure
 
 ```
-regulus-aus-lora/
+lexi-aus-lora/
 app
-└── app.py # Gradio web app for LoRA
+└── app.py                      # Gradio web app for LoRA 
 │
-├── assets/ # Screenshots and images for README
-│ └── app_screenshot.png
+├── assets/                     # Screenshots and images for README
+│   └── app_screenshot.png
 │
 ├── data/
-│ └── processed/ # Prepared LoRA dataset (JSON)
+│   └── processed/              # Prepared LoRA dataset (JSON)
 │
-├── lora_model/ # Saved LoRA adapter weights
+├── lora_model/                 # Saved LoRA adapter weights
 │
 ├── scripts/
-│ ├── data_preparation.py # Converts RTF/PDFs → JSON for LoRA
-│ ├── train_lora.py # Fine-tunes LoRA with OpenLLaMA 3B
-│ ├── lora_inference.py # CLI inference script
+│   ├── data_preparation.py     # Converts RTF/PDFs → JSON for LoRA
+│   ├── train_lora.py           # Fine-tunes LoRA with OpenLLaMA 3B
+│   ├── lora_inference.py       # CLI inference script
+│   
+inference
 │
-├── inference/
+├── vector_store/               # (Optional) FAISS DB for RAG
+│   └── faiss_index/
 │
-├── vector_store/ # (Optional) FAISS DB for RAG
-│ └── faiss_index/
-│
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project documentation
 ```
 
 ---
@@ -148,13 +145,14 @@ Output: The contract can be ended by the contractor if they cannot perform due t
 ## ⚠️ Disclaimer
 
 This project is for **educational and research purposes only**.  
-**Regulus does not provide legal advice.**  
+**LexiAUS does not provide legal advice.**  
 Always consult a qualified lawyer for official legal interpretation.
 
 ---
 
 ## 🌟 Acknowledgements
 
+- [AustLII](https://www.austlii.edu.au/) – Source of legal texts  
 - [Hugging Face](https://huggingface.co/) – Transformers, PEFT, and datasets  
 - [BitsAndBytes](https://github.com/TimDettmers/bitsandbytes) – 4‑bit quantization  
 - [Gradio](https://gradio.app/) – Web UI for AI apps  
@@ -163,6 +161,6 @@ Always consult a qualified lawyer for official legal interpretation.
 
 ## ✅ Project Summary
 
-- **Project Name:** `regulus-lora`  
-- **App Name:** **Regulus – Australian Legal Assistant**  
+- **Project Name:** `lexi-aus-lora`  
+- **App Name:** **LexiAUS – Australian Legal Assistant**  
 - **Description:** LoRA‑fine‑tuned OpenLLaMA 3B for summarizing and explaining Australian legal clauses  
