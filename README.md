@@ -27,7 +27,8 @@ This project uses **LoRA (Low-Rank Adaptation)** with **OpenLLaMA 3B** and **4�
 
 Here’s how **Regulus** looks in action:
 
-![Regulus Screenshot](https://github.com/prakhar105/austlii-legal-assistant/blob/master/assests/Screenshot%202025-08-05%20094540.png)
+<img width="1201" height="202" alt="Screenshot 2026-02-17 at 9 35 12 AM" src="https://github.com/user-attachments/assets/3c4b0df3-98ad-4603-be40-074fc00a4e83" />
+
 
 *(Make sure your screenshot is saved as `assets/app_screenshot.png` in the repo.)*
 
