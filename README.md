@@ -25,7 +25,7 @@ This project uses **LoRA (Low-Rank Adaptation)** with **OpenLLaMA 3B** and **4�
 
 ## 📸 App Screenshot
 
-Here’s how **LexiAUS** looks in action:
+Here’s how **Regulus** looks in action:
 
 ![Regulus Screenshot](https://github.com/prakhar105/austlii-legal-assistant/blob/master/assests/Screenshot%202025-08-05%20094540.png)
 
